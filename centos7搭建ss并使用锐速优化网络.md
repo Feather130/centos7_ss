@@ -42,6 +42,6 @@
      4. 重启后执行第10，11步
 
 13. 如果报错：`The name of network interface is not eth0, please retry after changing the name`表示网卡名不是eth0，需要执行
-
-   1. `ip a`查看网卡，如果是eth0需要`yum install net-tools`
-   2. 重新执行第10，11步
+     
+     1. `ip a`查看网卡，如果是eth0需要`yum install net-tools`
+     2. 重新执行第10，11步
