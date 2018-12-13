@@ -24,6 +24,8 @@
 
 7. `systemctl start firewalld`
 
+8. `firewall-cmd --permanent --zone=public --add-port=29838/tcp` 这里的29838需要跟搬瓦工分配的端口一样
+
 8. `firewall-cmd --permanent --zone=public --add-port=443/tcp`这里的443需要跟第五步设置的端口一样
 
 9. `firewall-cmd --reload`
